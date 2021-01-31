@@ -1,27 +1,7 @@
 import Head from 'next/head'
-import { Fragment, useEffect } from 'react';
+import { Fragment } from 'react';
 
 export default function Home() {
-  // const initPage = () => {
-  //   var menuId;
-  //   function init() {
-  //     menuId = document.getElementById("menu");
-  //     document.addEventListener("scroll", scrollMenu, false);
-  //   }
-  //   function scrollMenu() {
-  //     if (document.documentElement.scrollTop > 50) {
-  //       menuId.classList.add("scroll");
-  //       console.log('scroll');
-  //     } else {
-  //       menuId.classList.remove("scroll");
-  //       console.log('no-scroll');
-  //     }
-  //   }
-  //   document.addEventListener("DOMContentLoaded", init, false);
-  // }
-  // useEffect(() => {
-  //   initPage();
-  // },[]);
   return (
     <Fragment>
       <Head>
