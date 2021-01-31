@@ -27,6 +27,8 @@ export default function Home() {
       <Head>
         <title>独角云动力 - 首页</title>
         <link rel="icon" href="/favicon.ico" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJTSF06G97"></script>
+        <script src="/js/gtag.js"></script>
         <link rel='stylesheet' href='https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.2/css/all.min.css' />
         <script src="/js/init.js"></script>
       </Head>
