@@ -26,6 +26,8 @@ export default function Home() {
     <Fragment>
       <Head>
         <title>独角云动力 - 首页</title>
+        <meta charset="UTF-8" />
+        <meta content="width=device-width,minimum-scale=1.0" name="viewport" />
         <link rel="icon" href="/favicon.ico" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJTSF06G97"></script>
         <script src="/js/gtag.js"></script>

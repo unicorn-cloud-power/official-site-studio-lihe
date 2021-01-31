@@ -20,11 +20,11 @@
 (function () {
     var mobBtn, topMenu;
     function init() {
-      mobBtn = document.getElementById("mobile-btn");
-      topMenu = document.getElementById("top-menu");
-      mobBtn.addEventListener("click", mobileMenu, false);
+        mobBtn = document.getElementById("mobile-btn");
+        topMenu = document.getElementById("top-menu");
+        mobBtn.addEventListener("click", mobileMenu, false);
+        topMenu.addEventListener("click", hideMobileMenu, false);
     }
-  
     function mobileMenu() {
       if (topMenu.classList.contains("mobile-open")) {
         topMenu.classList.remove("mobile-open");
@@ -36,6 +36,14 @@
       } else {
         mobBtn.classList.add("hamburger-cross");
       }
+    }
+    function hideMobileMenu() {
+        if (topMenu.classList.contains("mobile-open")) {
+            topMenu.classList.remove("mobile-open");
+        }
+        if (mobBtn.classList.contains("hamburger-cross")) {
+            mobBtn.classList.remove("hamburger-cross");
+        }
     }
     document.addEventListener("DOMContentLoaded", init);
 })();
